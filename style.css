@@ -4,3 +4,28 @@
     position: fixed;
     z-index: -10;
 }
+
+.bgcarousel {
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 10% ;
+}
+
+.navbartext {
+    background: -webkit-linear-gradient(#ff512f, #dd2476);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff512f 30%, #dd2476 70%);
+  }
+
+.carousel-indicators .active{
+    background-color :  #dd2476 !important;
+}
