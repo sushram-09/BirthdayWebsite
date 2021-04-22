@@ -444,7 +444,7 @@ var VanillaTilt = (function () {
           "full-page-listening": false,
           "mouse-event-element": null,
           reset: true,
-          gyroscope: true,
+          gyroscope: false,
           gyroscopeMinAngleX: -15,
           gyroscopeMaxAngleX: 15,
           gyroscopeMinAngleY: -15,
