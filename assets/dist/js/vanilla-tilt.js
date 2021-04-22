@@ -445,10 +445,10 @@ var VanillaTilt = (function () {
           "mouse-event-element": null,
           reset: true,
           gyroscope: true,
-          gyroscopeMinAngleX: -45,
-          gyroscopeMaxAngleX: 45,
-          gyroscopeMinAngleY: -45,
-          gyroscopeMaxAngleY: 45,
+          gyroscopeMinAngleX: -15,
+          gyroscopeMaxAngleX: 15,
+          gyroscopeMinAngleY: -15,
+          gyroscopeMaxAngleY: 15,
           gyroscopeSamples: 10
         };
     
