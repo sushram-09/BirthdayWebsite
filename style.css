@@ -13,9 +13,19 @@
 .bg2carousel {
   width: 100%;
   object-fit: cover;
-  object-position: 100% 30% ;
+  object-position: 0 30% ;
 }
 
+.bg3carousel {
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 70% ;
+}
+
+.textColor{
+  color: #dd2476; 
+  background-color: rgba(0,0,0,0.3)
+}
 .navbartext {
     background: -webkit-linear-gradient(#ff512f, #dd2476);
     background-clip: text;
