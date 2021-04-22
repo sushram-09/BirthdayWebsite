@@ -49,8 +49,6 @@
 </header>
 
 <main>
-
-
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active activeCarouselIndicator" aria-current="true" aria-label="Slide 1"></button>
@@ -189,12 +187,21 @@
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
   </footer>
-</main>
 
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+</main>
+    <script src="assets/dist/js/jquery.js"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
     <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./assets/dist/js/vanilla-tilt.js"></script>
-      
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut(3000);
+      });
+    </script>
   </body>
 </html>
