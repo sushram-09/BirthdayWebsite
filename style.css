@@ -26,6 +26,22 @@
   color: #dd2476; 
   background-color: rgba(0,0,0,0.3)
 }
+
+.bad{
+  height: 150px;
+  box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.205);
+  margin-bottom: 50px;
+  padding: 5px;
+  background: -webkit-linear-gradient(#ff512f, #dd2476);
+}
+
+.featuretteImg{
+  box-shadow: 20px 30px 40px rgba(0, 0, 0, 0.205);
+  margin-bottom: 50px;
+  padding: 5px;
+  background: -webkit-linear-gradient(#ff512f, #dd2476);
+}
+
 .navbartext {
     background: -webkit-linear-gradient(#ff512f, #dd2476);
     background-clip: text;
