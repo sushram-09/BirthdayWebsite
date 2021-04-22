@@ -84,10 +84,44 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
+  .bg1carousel {
+    width: 50px;
+    object-fit: cover;
+    object-position: 10% 10% ;
+}
+.bg2carousel {
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 10% ;
+}
+
+.bg3carousel {
+  width: 100%;
+  object-fit: cover;
+  object-position: 10% 10% ;
+}
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
+
+  .bg1carousel {
+    width: 50px;
+    object-fit: cover;
+    object-position: 10% 10% ;
+}
+.bg2carousel {
+  width: 100%;
+  object-fit: cover;
+  object-position: 10% 10% ;
+}
+
+.bg3carousel {
+  width: 100%;
+  object-fit: cover;
+  object-position: 10% 10% ;
+}
 }
